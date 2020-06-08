@@ -1,0 +1,74 @@
+h1{
+  margin-bottom: 5%;
+}
+
+ .main{
+    background-color: gray;
+    float:left;
+    border: 1px solid black;
+ }
+
+.content{
+    clear: right;
+    padding: 5%;
+}
+
+ /* For large device*/
+@media (min-width: 992px) {
+   .main{
+	   width:32%;
+	   margin: 0.61%;
+      }
+}
+ /* For medium device*/
+@media (min-width: 768px) and (max-width: 991px) {
+   .main{
+	   width: 45%;
+	   margin: 2%;
+      }
+      #float{
+      	clear: both;
+      	width: 94%;
+      }
+      #contentmed{
+      	padding: 2.5%;
+      }
+}
+/* For small device*/
+@media (max-width: 767px){
+  .main{
+    width: 96%;
+    margin: 2%;
+  }	
+  .content{
+  	padding: 1.5%;
+  }
+}
+
+      div span{
+        padding: 20%;
+        font-size: 25px;
+      }
+      .right{
+        box-sizing: border-box;
+        clear: left;
+        float: right;
+        background-color: red;
+        height: 38px;
+        width: 137px;
+        border: 1px solid black;
+      }
+
+      h1{
+        margin-top: 100px;
+      }
+
+      li{
+        color: gray;
+        font-size: 18px;
+        margin-bottom: 2px;
+      }
+
+      hr{
+        size: 1px;
+      }
